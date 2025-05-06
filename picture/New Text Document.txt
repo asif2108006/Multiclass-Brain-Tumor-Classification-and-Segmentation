@@ -1,0 +1,14 @@
+I've been working on the LGG MRI Segmentation Dataset from Kaggle, which includes brain MRI scans and tumor masks to detect and segment lower-grade gliomas (LGG).
+
+👉 Classification: Used ResNet50 with transfer learning (ImageNet weights) – achieved an impressive 98% accuracy 
+👉 Segmentation: Implemented a U-Net model to pinpoint tumor regions – achieved 99% validation accuracy 
+
+I also worked on a dataset that combines three sources: figshare, SARTAJ, and Br35H.
+The dataset comprises a total of 7023 human brain MRI images, categorized into four distinct classes. The dataset focuses on brain tumors and their classification. The four classes are as follows:
+Glioma: Cancerous brain tumors in glial cells.
+Meningioma: Non-cancerous tumors originating from the meninges.
+No Tumor: Normal brain scans without detectable tumors.
+Pituitary: Tumors affecting the pituitary gland, which can be cancerous or non-cancerous
+👉For multiclass tumor detection, I used a CNN model with data augmentation and achieved an outstanding 99% accuracy! 
+
+It’s amazing to see how deep learning can contribute to advancements in healthcare. 
